@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
     <title>PortFolio Filipe Ferreira</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Logo</a>
+        <!--<a class="navbar-brand" href="#">My Logo</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Presentação <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#presentacao">Presentação <span class="sr-only">(current)</span></a>
                 </li>
                
             </ul>
             
-            <!-- Modal para efetuar o Login -->
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+            <!-- Modal para efetuar o Login 
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Entrar</button>-->
             
         </div>
     </nav>
@@ -34,31 +36,49 @@
             <div class="card">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="#" alt="Fotografia de Filipe Ferreira">
+                        <div class="col-md-4 col-xs-12">
+                            <img src="https://via.placeholder.com/250x300" alt="Fotografia de Filipe Ferreira">
                         </div>
-                        <div class="col-md-8">
-                            Estudante e FreeLancer
-                            Estudante no Instituto Politécnico de Viseu
+                        <div class="col-md-8 col-xs-12">
+                            <h1><span>Eu sou o </span>Filipe Ferreira</h1>
+                            Estudante e Freelancer
                             <hr>
-                            Idade
-                            Endereço
-                            E-mail
-                            Estudante
+                            <table>
+                                <tr>
+                                    <td>Idade</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>Endereço</td>
+                                    <td>Rio de Loba, Viseu</td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td>filipesferreira94@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Estudante</td>
+                                    <td>Engenharia Informática (3º ano)</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer">
-                    Redes Sociais
+                <div class="card-footer text-center">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
                 </div>
             </div>
-            <div class="text-center">
+            <div class="descricao text-center">
                 <p> 
                     Viva ! Vou-me apresentar eu sou o Filipe Ferreira fascinado desde à muito tempo para todo o tipo de linguagens 
                     de programação e de novas tecnologias.
                 </p>
                 <p>
-                    Já a algum tempo que sou autodidata realizando alguns projetos. Um dos meus maiores sucessos:
+                    Já a algum tempo que sou autodidata realizando alguns projetos. Um dos meus maiores sucessos:<br>
                     <a href="https://www.warsofninja.eu" target="_blank" rel="noopener noreferrer">Wars of Ninja</a> 
                 </p>
             </div>
