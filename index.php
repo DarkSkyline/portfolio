@@ -74,7 +74,7 @@
             </div>
             <div class="descricao text-center">
                 <p> 
-                    Viva ! Vou-me apresentar eu sou o Filipe Ferreira fascinado desde à muito tempo para todo o tipo de linguagens 
+                    Viva ! Eu sou o Filipe Ferreira, fascinado desde à muito tempo para todo o tipo de linguagens 
                     de programação e de novas tecnologias.
                 </p>
                 <p>
