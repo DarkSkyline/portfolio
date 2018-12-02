@@ -1,0 +1,41 @@
+body{
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightgray;
+}
+
+.card{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #005691;
+    color: white;
+}
+
+.card span {
+    font-weight: 300;
+}
+
+hr{
+    color: white;
+}
+
+.card-footer{
+    background-color: #004A7C;
+}
+
+.card-footer a{
+    color: white;
+    padding: 5%;
+}
+
+.container {
+    width: 60%;
+}
+
+.presentacao  > .container {
+    margin-top: 20%;
+} 
+
+.descricao {
+    padding: 2%;
+}
