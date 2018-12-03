@@ -25,8 +25,8 @@
                
             </ul>
             
-            <!-- Modal para efetuar o Login 
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Entrar</button>-->
+            <!-- Modal para efetuar o Login -->
+            <button class="btn btn-info my-2 my-sm-0" type="submit">Entrar</button>
             
         </div>
     </nav>
@@ -40,10 +40,12 @@
                             <img src="https://via.placeholder.com/250x300" alt="Fotografia de Filipe Ferreira">
                         </div>
                         <div class="col-md-8 col-xs-12">
-                            <h1><span>Eu sou o </span>Filipe Ferreira</h1>
-                            Estudante e Freelancer
+                            <div class="spacing">
+                                <h1><span>Eu sou o </span>Filipe Ferreira</h1>
+                                Estudante e Freelancer
+                            </div>
                             <hr>
-                            <table>
+                            <table class="table">
                                 <tr>
                                     <td>Idade</td>
                                     <td>24</td>
@@ -65,10 +67,10 @@
                     </div>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/DarkSkyline" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/filipesferreira/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/Filipesferreiraa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/filipesferreira94/" target="_blank"><i class="fab fa-instagram"></i></a>
 
                 </div>
             </div>
@@ -96,6 +98,14 @@
     <section id="contatos">
 
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://filipesferreira.com"> filipesferreira.com</a>
+        </div>
+    </footer>
+    <!-- Footer -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
