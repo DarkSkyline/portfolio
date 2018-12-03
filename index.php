@@ -26,7 +26,7 @@
             </ul>
             
             <!-- Modal para efetuar o Login -->
-            <button class="btn btn-info my-2 my-sm-0" type="submit">Entrar</button>
+            <button class="btn btn-info my-2 my-sm-0" type="submit"  onclick="alert('Brevemente disponível')">Entrar</button>
             
         </div>
     </nav>
