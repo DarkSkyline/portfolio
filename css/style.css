@@ -39,3 +39,29 @@ hr{
 .descricao {
     padding: 2%;
 }
+
+.table td{
+    border: none !important;
+}
+
+.spacing{
+    line-height: 0.1;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.btn-info {
+    background-color: #005691;
+}
+
+.btn-info:hover{
+    background-color: #004A7C;
+}
+
+footer{
+    position: absolute;
+    width:100%;
+    background-color: #004A7C;
+    color: white;
+    bottom:0;
+}
