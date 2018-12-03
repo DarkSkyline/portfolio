@@ -19,9 +19,9 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <!--<li class="nav-item active">
                     <a class="nav-link" href="#presentacao">Presentação <span class="sr-only">(current)</span></a>
-                </li>
+                </li>-->
                
             </ul>
             
@@ -37,7 +37,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
-                            <img src="https://via.placeholder.com/250x300" alt="Fotografia de Filipe Ferreira">
+                            <img src="img/foto-perfil.jpg"  width="250" alt="Fotografia de Filipe Ferreira">
                         </div>
                         <div class="col-md-8 col-xs-12">
                             <div class="spacing">
@@ -56,7 +56,7 @@
                                 </tr>
                                 <tr>
                                     <td>E-mail</td>
-                                    <td>filipesferreira94@gmail.com</td>
+                                    <td>Filipesferreira94@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Estudante</td>
