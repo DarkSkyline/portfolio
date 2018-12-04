@@ -65,10 +65,12 @@ hr{
 
 .btn-info {
     background-color: #005691;
+    border-color: #005691;
 }
 
 .btn-info:hover{
     background-color: #004A7C;
+    border-color: #004A7C;
 }
 
 .page-container{
