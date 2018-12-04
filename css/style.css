@@ -85,6 +85,10 @@ footer{
     color: white;
 }
 
+footer a, footer a:hover {
+    color: white;
+}
+
 /* Media queries */
 
 @media screen and (max-width:720px) {
