@@ -56,7 +56,7 @@
                                 </tr>
                                 <tr>
                                     <td>E-mail</td>
-                                    <td>Filipesferreira94@gmail.com</td>
+                                    <td>filipesferreira94@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Estudante</td>
