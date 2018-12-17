@@ -1,15 +1,17 @@
 body{
     height: 100%;
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Monserrat', 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: lightgray;
 }
 
 .card{
+    margin: 0 auto;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     margin-top: 5%;
     margin-bottom: 5%;
     background-color: #005691;
     color: white;
+    width: 80%;
 }
 
 .card span {
@@ -20,9 +22,13 @@ body{
     margin-left: -2px;
 }
 
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
 .navbar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
 }
 
 hr{
@@ -41,12 +47,8 @@ hr{
     padding: 5%;
 }
 
-.container {
-    width: 60%;
-}
-
-.presentacao  > .container {
-    margin-top: 20%;
+.presentacao {
+    margin-top: 100px;
 } 
 
 .descricao {
@@ -68,25 +70,36 @@ hr{
     border-color: #005691;
 }
 
+.header-content{
+    background-color: #262626;
+    padding: 10px 0 10px 0;
+    height:650px;
+}
+
 .btn-info:hover{
     background-color: #004A7C;
     border-color: #004A7C;
 }
 
-.page-container{
-    position: relative;
+
+
+footer a {
+    color: #999;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
 }
 
-footer{
-    position: inherit;
-    bottom: 0;
-    width: 100%;
-    background-color: #004A7C;
-    color: white;
+footer .credits {
+    background: #004A7C;
+    color: #999;
+    font-size: 13px;
+    padding: 15px 0;
 }
 
-footer a, footer a:hover {
-    color: white;
+footer .credits .poweredby {
+    text-align: right;
 }
 
 /* Media queries */
